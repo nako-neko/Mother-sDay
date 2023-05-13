@@ -1,30 +1,30 @@
-const canvas = document.getElementById("flower-canvas");
-const context = canvas.getContext("2d");
+// const canvas = document.getElementById("flower-canvas");
+// const context = canvas.getContext("2d");
 
-canvas.width = 400;
-canvas.height = 400;
+// canvas.width = 400;
+// canvas.height = 400;
 
-context.strokeStyle = "#ffc0cb";
-context.lineWidth = 2;
+// context.strokeStyle = "#ffc0cb";
+// context.lineWidth = 2;
 
-context.beginPath();
-context.moveTo(200, 100);
-context.quadraticCurveTo(150, 50, 200, 0);
-context.quadraticCurveTo(250, 50, 200, 100);
-context.quadraticCurveTo(200, 250, 50, 300);
-context.quadraticCurveTo(200, 350, 200, 200);
-context.quadraticCurveTo(200, 350, 350, 300);
-context.quadraticCurveTo(200, 250, 200, 100);
-context.closePath();
-context.stroke();
+// context.beginPath();
+// context.moveTo(200, 100);
+// context.quadraticCurveTo(150, 50, 200, 0);
+// context.quadraticCurveTo(250, 50, 200, 100);
+// context.quadraticCurveTo(200, 250, 50, 300);
+// context.quadraticCurveTo(200, 350, 200, 200);
+// context.quadraticCurveTo(200, 350, 350, 300);
+// context.quadraticCurveTo(200, 250, 200, 100);
+// context.closePath();
+// context.stroke();
 
 $(document).ready(function() {
     $(".text").hover(function() {
         $(this).toggleClass('pinklight');
     });
-    $("#header").hover(function() {
-        $(this).toggleClass('pinklight');
-    });
+    // $("#header").hover(function() {
+    //     $(this).toggleClass('pinklight');
+    // });
 });
 
 // // 获取canvas元素和绘图上下文

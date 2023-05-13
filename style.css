@@ -20,17 +20,17 @@ body {
                  0 0 150px #bb468a;
 }
 
-.flower-container {
+/* .flower-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* background-color: #ffffff; */
+    background-color: #ffffff;
 }
 
 #flower-canvas {
     border: none;
-}
+} */
 
 h1 {
     padding-top: 20px;
