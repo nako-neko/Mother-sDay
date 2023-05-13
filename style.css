@@ -5,9 +5,24 @@ html {
 }
   
 body {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
     background: transparent;
     color: #ffffff;
 } 
+
+a:link {
+    color: #ffffff;
+}
+  
+a:visited {
+    color: #ffffff;
+}
+
+a:active {
+    color: #ffffff;
+}
 
 .pinklight {
     text-shadow: 0 0 10px #ea60b1,
@@ -20,26 +35,18 @@ body {
                  0 0 150px #bb468a;
 }
 
-/* .flower-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #ffffff;
-}
-
-#flower-canvas {
-    border: none;
-} */
-
 h1 {
-    padding-top: 20px;
+    padding-top: 30px;
   }
   
 @media (min-width: 768px) {
-h1 {
-    margin-bottom: 30px;
-    margin-top: 20px;
-    font-size: 100px;
+    h1 {
+        margin-bottom: 30px;
+        margin-top: 20px;
+        font-size: 100px;
+    }
 }
+
+#name {
+    right: 10px;
 }
