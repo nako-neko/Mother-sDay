@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+    background: radial-gradient(ellipse at bottom, #f0f0c9 0%, #f0f08d 100%);
+    overflow: hidden;
+}
+  
+body {
+    background: transparent;
+    color: #ffffff;
+} 
+
+.pinklight {
+    text-shadow: 0 0 10px #ea60b1,
+                 0 0 20px #ea60b1,
+                 0 0 30px #ea60b1,
+                 0 0 40px #bb468a,
+                 0 0 70px #bb468a,
+                 0 0 80px #bb468a,
+                 0 0 100px #bb468a,
+                 0 0 150px #bb468a;
+}
+
+.flower-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #ffffff; */
+}
+
+#flower-canvas {
+    border: none;
+}
+
+h1 {
+    padding-top: 20px;
+  }
+  
+@media (min-width: 768px) {
+h1 {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 100px;
+}
+}
