@@ -13,15 +13,15 @@ body {
 } 
 
 a:link {
-    color: violet;
+    color: #ffffff;
 }
   
 a:visited {
-    color: violet;
+    color: #ffffff;
 }
 
 a:active {
-    color: violet;
+    color: #ffffff;
 }
 
 .pinklight {
@@ -33,6 +33,17 @@ a:active {
                  0 0 80px #bb468a,
                  0 0 100px #bb468a,
                  0 0 150px #bb468a;
+}
+
+.whitelight {
+    text-shadow: 0 0 10px #ffffff,
+                 0 0 20px #ffffff,
+                 0 0 30px #ffffff,
+                 0 0 40px #ffffff,
+                 0 0 70px #ffffff,
+                 0 0 80px #ffffff,
+                 0 0 100px #ffffff,
+                 0 0 150px #ffffff;
 }
 
 h1 {
@@ -53,6 +64,5 @@ h1 {
 
 .wish {
     font-size: larger;
-    color: violet;
     text-align: center;
 }
