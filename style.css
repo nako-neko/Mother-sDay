@@ -1,7 +1,7 @@
 html {
-    height: 100%;
+    height: 130%;
     background: radial-gradient(ellipse at bottom, #f0f0c9 0%, #f0f08d 100%);
-    overflow: hidden;
+    /* overflow: hidden; */
 }
   
 body {
@@ -13,15 +13,15 @@ body {
 } 
 
 a:link {
-    color: #ffffff;
+    color: violet;
 }
   
 a:visited {
-    color: #ffffff;
+    color: violet;
 }
 
 a:active {
-    color: #ffffff;
+    color: violet;
 }
 
 .pinklight {
@@ -48,5 +48,11 @@ h1 {
 }
 
 #name {
-    margin-right: 20px;
+    margin-right: 10px;
+}
+
+.wish {
+    font-size: larger;
+    color: violet;
+    text-align: center;
 }
